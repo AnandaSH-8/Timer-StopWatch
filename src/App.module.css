@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  width:35%;
+  background-color: rgb(241, 188, 169);
+  font-family: sans;
+  margin: auto;
+  margin-top: 5%;
+  padding-bottom:2%;
+  border-radius: 20px;
+  box-shadow: rgb(249, 125, 1) 0px -2px 2px 0px, rgba(251, 239, 9, 0.971) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.title{
+  display:flex;
+  width:100%;
+  justify-content: space-around;
+}
+
+.title > h1{
+  width:50%;
+  padding-top:2%;
+  height:50px;
+} 
+
+.title > h1:first-child{
+  border-right: 2px groove white;
+}

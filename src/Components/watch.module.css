@@ -1,0 +1,25 @@
+.Timer{
+    margin: 4% 2% 0 2%;
+    box-shadow: rgb(249, 125, 1) 0px -2px 2px 0px, rgba(251, 239, 9, 0.971) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 20px;
+    background-color: rgb(227, 225, 225);
+}
+
+.watchBox{
+    width:75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Buttons{
+    width:80px;
+    height:35px;
+    margin:0 2%;
+    margin-bottom: 5%;
+    border:none;
+    border-radius: 5px;
+    color:white;
+    font-size: 18px;
+}
+
