@@ -101,11 +101,11 @@ export class Timer extends Component
                     :
                     <div className={Style.watchBox} onClick={()=>{
                         this.setState({...this.state,input:true})}}>
-                        <h1>{hours > 9?hours:hours="0"+hours}</h1>
+                        <h1>{hours > 9?hours:hours="0"+hours}<kbd>h</kbd></h1>
                         <h1>:</h1>
-                        <h1>{minutes> 9?minutes:minutes="0"+minutes}</h1>
+                        <h1>{minutes> 9?minutes:minutes="0"+minutes}<kbd>m</kbd></h1>
                         <h1>:</h1>
-                        <h1>{seconds> 9?seconds:seconds="0"+seconds}</h1>
+                        <h1>{seconds> 9?seconds:seconds="0"+seconds}<kbd>s</kbd></h1>
                     </div>
                 }
             <div>

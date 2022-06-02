@@ -80,13 +80,13 @@ export class StopWatch extends Component
         return <div className={Style.Timer}>
             {/* <h1 style={{margin:0}}>Stop Watch</h1> */}
             <div className={Style.watchBox}>
-                <h1>{hours > 9?hours:hours="0"+hours}</h1>
+                <h1>{hours > 9?hours:hours="0"+hours}<kbd>h</kbd></h1>
                 <h1>:</h1>
-                <h1>{minutes> 9?minutes:minutes="0"+minutes}</h1>
+                <h1>{minutes> 9?minutes:minutes="0"+minutes}<kbd>m</kbd></h1>
                 <h1>:</h1>
-                <h1>{seconds> 9?seconds:seconds="0"+seconds}</h1>
+                <h1>{seconds> 9?seconds:seconds="0"+seconds}<kbd>s</kbd></h1>
                 <h1>:</h1>
-                <h1>{millisecs> 9?millisecs:millisecs="0"+millisecs}</h1>
+                <h1>{millisecs> 9?millisecs:millisecs="0"+millisecs}<kbd>ms</kbd></h1>
             </div>
             <div>
                 <button style={{background:start?"red":"green"}} className={Style.Buttons}  disabled={start} 
