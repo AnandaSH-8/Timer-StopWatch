@@ -23,6 +23,8 @@
     * Stop watch is time that runs till user stops that
 
     * User can able to start, stop and reset the Stopwatch.
+    
+    * It has Milliseconds function.
 
 
  * ### User can toggle between the timer and the stopwatch.
