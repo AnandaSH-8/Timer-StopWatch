@@ -7,7 +7,7 @@
   margin-top: 5%;
   padding-bottom:2%;
   border-radius: 20px;
-  box-shadow: rgb(249, 125, 1) 0px -2px 2px 0px, rgba(251, 239, 9, 0.971) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  box-shadow: rgb(249, 125, 1) 0px -2px 2px 0px, rgba(244, 217, 67, 0.971) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
 .title{
@@ -16,12 +16,46 @@
   justify-content: space-around;
 }
 
-.title > h1{
+.title > h2{
   width:50%;
-  padding-top:2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height:50px;
+  cursor: pointer;
+  color:rgb(51, 42, 42);
 } 
 
-.title > h1:first-child{
-  border-right: 2px groove white;
+.title > h2:first-child{
+  border-right: 3px ridge white;
+}
+
+.title > h2:hover{
+  color:rgb(0, 0, 0);
+}
+
+.timer,.stopWatch{
+  color:rgb(185, 86, 29);
+  font-size: larger;
+  font-weight: 900;
+  margin-right: 2%;
+  
+}
+
+.stopWatch{
+  color:rgb(203, 45, 45);
+  margin-right: 3%;
+}
+
+.timer:hover
+{
+  color:rgb(222, 82, 0);
+}
+
+.stopWatch:hover{
+  color:rgb(229, 0, 0);
+}
+
+button{
+  font-weight: 800;
 }

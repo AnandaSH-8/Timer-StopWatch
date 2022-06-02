@@ -1,6 +1,6 @@
 .Timer{
     margin: 4% 2% 0 2%;
-    box-shadow: rgb(249, 125, 1) 0px -2px 2px 0px, rgba(251, 239, 9, 0.971) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    box-shadow: rgb(249, 125, 1) 0px -2px 2px 0px, rgba(84, 82, 70, 0.971) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     border-radius: 20px;
     background-color: rgb(227, 225, 225);
 }
