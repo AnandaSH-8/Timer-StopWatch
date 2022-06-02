@@ -58,4 +58,9 @@
 
 button{
   font-weight: 800;
+  cursor: pointer;
+}
+
+button:hover{
+  box-shadow: rgb(3, 136, 245) 0px -2px 2px 0px, rgba(3, 182, 242, 0.971) 0px 4px 6px -1px, transparent 0px 1px 0px inset;
 }
