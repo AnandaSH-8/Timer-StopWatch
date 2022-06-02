@@ -109,9 +109,9 @@ export class Timer extends Component
                     </div>
                 }
             <div>
-                <button style={{background:start?"white":"green"}} className={Style.Buttons} disabled={start}
+                <button style={{background:start?"red":"green"}} className={Style.Buttons} disabled={start}
                 onClick={()=>{this.startTimer()}}>Start</button>
-                <button style={{background:start?"red":"white"}} className={Style.Buttons} 
+                <button style={{background:start?"green":"red"}} className={Style.Buttons} disabled={!start}
                 onClick={()=>{this.stopTimer()}}>Stop</button>
                 <button style={{background:"orange"}} className={Style.Buttons} 
                 onClick={()=>{this.resetTimer()}}>Reset</button>

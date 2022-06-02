@@ -91,7 +91,7 @@ export class StopWatch extends Component
             <div>
                 <button style={{background:start?"red":"green"}} className={Style.Buttons}  disabled={start} 
                 onClick={()=>{this.startWatch()}}>Start</button>
-                <button style={{background:start?"green":"red"}} className={Style.Buttons} 
+                <button style={{background:start?"green":"red"}}  className={Style.Buttons} disabled={!start}
                 onClick={()=>{this.stopWatch()}}>Stop</button>
                 <button style={{background:"orange"}} className={Style.Buttons} 
                 onClick={()=>{this.resetWatch()}}>Reset</button>
