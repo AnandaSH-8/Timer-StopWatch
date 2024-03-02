@@ -1,3 +1,7 @@
+#root{
+  background-color: red;
+}
+
 .App {
   text-align: center;
   width:35%;
@@ -37,7 +41,6 @@
 
 .timer,.stopWatch{
   color:rgb(185, 86, 29);
-  font-size: larger;
   font-weight: 900;
   margin-right: 2%;
   

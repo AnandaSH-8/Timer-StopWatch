@@ -27,7 +27,7 @@ export class Timer extends Component
                             this.state.minutes==0 && this.state.hours == 0?0:this.state.minutes,
                 seconds:this.state.seconds == 0 && this.state.minutes > 0? 59:
                         this.state.seconds == 0 && this.state.hours > 0 ? 59 : 
-                        this.state.seconds-1,
+                        this.state.seconds == 0 ? this.state.seconds : this.state.seconds-1,
                 start:true
             })
         
@@ -44,15 +44,25 @@ export class Timer extends Component
         })
     }
 
-    resetTimer()
+    resetTimer(res)
     {
             clearInterval(this.timer)
-            this.setState({
-                ...this.state,
-                minutes:0,
-                seconds:0,
-                start:false
-            })
+            if(res){
+                this.setState({
+                    ...this.state,
+                    minutes:0,
+                    seconds:0,
+                    start:false
+                })
+            }
+            else{
+                this.setState({
+                    ...this.state,
+                    minutes:1,
+                    seconds:10,
+                    start:false
+                })
+            }
         }
 
     componentDidUpdate()
@@ -67,7 +77,7 @@ export class Timer extends Component
 
     componentWillUnmount()
     {
-        this.resetTimer()
+        this.resetTimer('ends')
     }
 
     render()
