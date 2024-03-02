@@ -78,7 +78,6 @@ export class StopWatch extends Component
         
 
         return <div className={Style.Timer}>
-            {/* <h1 style={{margin:0}}>Stop Watch</h1> */}
             <div className={Style.watchBox}>
                 <h1>{hours > 9?hours:hours="0"+hours}<kbd>h</kbd></h1>
                 <h1>:</h1>

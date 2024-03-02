@@ -29,7 +29,3 @@ function App() {
 }
 
 export default App
-
-/* <div style={{border:"2px solid red"}}>
-      
-        </div> */

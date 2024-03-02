@@ -95,7 +95,6 @@ export class Timer extends Component
         }
         
         return <div className={Style.Timer}>
-            {/* <h1 style={{margin:0}}>Timer</h1> */}
                 {input?
                     <div className={Style.watchBox} onMouseLeave={()=>{
                         this.setState({...this.state,input:false})}}>
